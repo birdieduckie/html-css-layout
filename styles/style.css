@@ -14,12 +14,30 @@ body {
 .navbar-menu {
   display: flex;
   justify-content: space-between;
+  font-family: Proxima Nova;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: justify;
 }
 
 .navbar-button {
+  display: flex;
   padding: 10px;
   color: white;
-  background: transparent;
+  background: #2310FA;
   border: 0;
   cursor: pointer;
+  position: absolute;
+}
+
+.login-button {
+  position: absolute;
+  width: 107px;
+  height: 40px;
+  left: 1153px;
+  top: 10px;
+  color: #2310FA;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  border-radius: 6px;
 }

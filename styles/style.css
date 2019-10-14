@@ -14,10 +14,6 @@ body {
 .navbar-menu {
   display: flex;
   justify-content: space-between;
-  font-family: Proxima Nova;
-  font-size: 14px;
-  line-height: 17px;
-  text-align: justify;
 }
 
 .navbar-button {
@@ -27,7 +23,6 @@ body {
   background: #2310FA;
   border: 0;
   cursor: pointer;
-  position: absolute;
 }
 
 .login-button {

@@ -36,3 +36,8 @@ body {
   mix-blend-mode: normal;
   border-radius: 6px;
 }
+
+#background-img {
+  width: 100%;
+  height: 100%;
+}

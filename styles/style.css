@@ -42,13 +42,3 @@ body {
   height: 80%;
 }
 
-#container {
-  position: fixed;
-  width: 755px;
-  height: 732px;
-  left: 263px;
-  top: 116px;
-  background: #FFFFFF;
-  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.14);
-  border-radius: 12px;
-}

@@ -45,8 +45,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 755px;
-  height: 732px;
+  width: 60vw;
+  height: 75vh;
   margin: auto;
   background: #FFFFFF;
   box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.14);

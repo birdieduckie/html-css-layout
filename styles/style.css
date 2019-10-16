@@ -44,6 +44,8 @@ body {
 
 #big-box {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 755px;
   height: 732px;
   left: 263px;

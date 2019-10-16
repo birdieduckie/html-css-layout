@@ -37,8 +37,7 @@ body {
 }
 
 #background-img {
-  width: 100%;
-  height: 80%;
+  background: url(/images/wave.svg);
 }
 
 #big-box {

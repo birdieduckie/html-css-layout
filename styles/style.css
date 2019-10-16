@@ -41,6 +41,10 @@ body {
   height: 80%;
 }
 
+#body {
+  width: 100%;
+}
+
 #big-box {
   display: flex;
   align-items: center;

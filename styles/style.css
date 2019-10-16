@@ -37,12 +37,7 @@ body {
 }
 
 #background-img {
-  background: url(/images/wave.svg);
-  width: 100vw;
-  height: 100vh; 
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  position: relative;
+  background: #F7F7F7 url(/images/wave.svg) repeat-x 0 -50px;
 }
 
 #big-box {

@@ -4,12 +4,19 @@ html, body {
   background: #F7F7F7;
 }
 
-h1, h2, h3, h4, p, span {
-  margin: 0;
+p {
+  line-height: 1.5em;
+}
+
+span {
+  margin: 0 10px;
+  color: #969696;
+  font-size: 14px;
 }
 
 .header {
   display: flex;
+  font-family: 'Montserrat', sans-serif;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -25,11 +32,38 @@ h1, h2, h3, h4, p, span {
 
 .navbar-button {
   display: flex;
+  position: relative;
   padding: 10px;
-  color: white;
+  color: #BBB4FF;
   background: #2310FA;
   border: 0;
   cursor: pointer;
+  
+}
+.navbar-button:hover {
+  display: block;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.navbar-button::before {
+  display: block;
+  position: absolute;
+  width: 84%;
+  height: 5px;
+  top: 43px;
+  left: 8%;
+  right: 8%;
+  background: #FFF;
+  transition: opacity 0.1s ease;
+  border-radius: 100px;
+  text-align: center;
+  opacity: 0;
+  content: "";
+}
+
+.navbar-button:hover::before {
+  opacity: 1;
 }
 
 .spacer {
@@ -49,6 +83,10 @@ h1, h2, h3, h4, p, span {
   cursor: pointer;
 }
 
+.login-button:hover {
+  font-weight: bold;
+}
+
 .main {
   width: 100%;
   height: 100%;
@@ -66,6 +104,7 @@ h1, h2, h3, h4, p, span {
 .information {
   display: flex;
   width: 100%;
+
 }
 
 .big-box {
@@ -73,6 +112,7 @@ h1, h2, h3, h4, p, span {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
   width: 60%;
   margin: 0 auto;
   padding: 20px;
@@ -81,27 +121,107 @@ h1, h2, h3, h4, p, span {
   border-radius: 12px;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
 .small-tagbox {
-  width: 135.86px;
-  height: 24px;
-  left: 436.55px;
-  top: 566px;
-  font-family: Proxima Nova;
+  height: 25px;
+  margin: 0 10px 10px 0;
+  padding: 0 10px;
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   line-height: 17px;
   display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
-  color: #969696;
-  background: #FFFFFF;
+  color:#969696;
+  background:#F3F3F3;
+  border: 1px solid #E7E7E7;
   border-radius: 10px;
+  box-sizing: content-box;
 }
 
 
 .left {
   width: 60%;
+  margin-right: 5px;
+}
+
+.left p {
+  color: #969696;
 }
 
 .right {
   width: 40%;
+  margin-left: 5px;
+}
+
+.coolbox {
+  display: flex;
+  justify-content: space-between;
+  background: #F1F3FE;
+  border-radius: 6px;
+  line-height: 1.2em;
+  padding: 15px 20px;
+  margin-bottom: 5px;
+}
+
+.small-tagbox:hover {
+  background-color: #2310FA;
+  color: #FFFFFF;
+}
+
+.avatar {
+  width: 30%;
+}
+
+.avatar img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+
+.followers {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  text-align: left;
+  margin: 0 10%;
+}
+
+.small-container {
+  display: flex;
+}
+
+.icon img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.red {
+  width: 40px;
+  color: lightpink;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.blue {
+  width: 40px;
+  color: lightskyblue;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.blue img {
+  width: 30px;
+  height: 30px;
+  background: lightskyblue;
 }

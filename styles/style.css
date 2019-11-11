@@ -4,6 +4,11 @@ html, body {
   background: #F7F7F7;
 }
 
+h4 {
+  margin-top: 10px;
+  margin-inline-start: 10px;
+}
+
 p {
   line-height: 1.5em;
 }
@@ -104,7 +109,6 @@ span {
 .information {
   display: flex;
   width: 100%;
-
 }
 
 .big-box {
@@ -165,6 +169,7 @@ span {
 .coolbox {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   background: #F1F3FE;
   border-radius: 6px;
   line-height: 1.2em;
@@ -182,25 +187,22 @@ span {
 .avatar {
   display: flex;
   align-items: center;
-  width: 30%;
 }
 
 .avatar img {
-  width: 75px;
-  height: 75px;
+  width: 65px;
+  height: 65px;
   border-radius: 50%;
   object-fit: contain;
 }
 
-
 .hoomans {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 80%;
   text-align: left;
-  margin: 0; 
+  margin-left: 0; 
   justify-items: start;
-  justify-content: center;
 }
 
 .followers {
@@ -217,7 +219,35 @@ span {
   object-fit: cover;
 }
 
+.title {
+  display: flex;
+  justify-content: flex-start;
+  height: 20%;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width: 100%;
+}
+.red {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: rgba(255, 37, 37, 0.1);
+}
+
+.blue {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: rgba(42, 131, 251, 0.1);
+}
+
 .blue img {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
+
 }

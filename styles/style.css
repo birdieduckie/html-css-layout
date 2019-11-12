@@ -205,10 +205,16 @@ span {
   justify-items: start;
 }
 
+.hoomans h4 {
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
 .followers {
   display: flex;
   justify-items: start;
   align-items: start;
+  margin-left: 10px;
 }
 
 .icon img {
@@ -224,6 +230,7 @@ span {
   justify-content: flex-start;
   height: 20%;
   width: 100%;
+  margin-top: 10px;
 }
 
 .content {
@@ -232,6 +239,9 @@ span {
   height: 80%;
   width: 100%;
 }
+
+
+
 .red {
   width: 35px;
   height: 35px;

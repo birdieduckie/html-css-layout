@@ -261,17 +261,19 @@ span {
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  background: rgba(255, 37, 37, 0.1);
+  background: #FFD2D2 url(../images/place.svg);
+  background-size: 12px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
  
 .blue {
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  background: rgba(42, 131, 251, 0.1);
+  background: #C9E2FF url(../images/calendar.svg);
+  background-size: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
  
-.blue img {
-  width: 25px;
-  height: 25px;
-}

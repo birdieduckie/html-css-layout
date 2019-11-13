@@ -42,7 +42,7 @@ span {
   background: #2310FA;
   border: 0;
   cursor: pointer;
-  font-weight: bold;
+  font-weight: 600;
   opacity: 0.7;
 }
 
@@ -53,7 +53,7 @@ span {
 }
  
 .navbar-button::before {
-  display: block;
+  display: none;
   position: absolute;
   width: 84%;
   height: 5px;
@@ -61,15 +61,13 @@ span {
   left: 8%;
   right: 8%;
   background: #FFF;
-  transition: opacity 0.1s ease;
   border-radius: 100px;
   text-align: center;
-  opacity: 0;
   content: "";
 }
  
 .navbar-button:hover::before {
-  opacity: 1;
+  display: block;
 }
  
 .spacer {
@@ -87,7 +85,7 @@ span {
   border: 0;
   border-radius: 6px;
   cursor: pointer;
-  font-weight: bold;
+  font-weight: 600;
   opacity: 0.7;
 }
  
@@ -154,7 +152,26 @@ span {
   box-sizing: content-box;
   user-select: none;
 }
+
+.small-tagbox:hover {
+  background-color: #2310FA;
+  color: #FFFFFF;
+}
+
+.new {
+  cursor: pointer;
+  background: #2310FA;
+  color: white;
+}
  
+.new:hover { 
+  background: #01BF93; 
+}
+
+.new:hover:active { 
+  background: #009A76;
+}
+
 .left {
   width: 60%;
   margin: 0 5px 0 0;
@@ -183,11 +200,6 @@ span {
  
 .author {
   flex-direction: row;
-}
- 
-.small-tagbox:hover {
-  background-color: #2310FA;
-  color: #FFFFFF;
 }
  
 .avatar {

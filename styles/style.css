@@ -158,17 +158,17 @@ span {
   color: #FFFFFF;
 }
 
-.new {
+.add {
   cursor: pointer;
   background: #2310FA;
   color: white;
 }
  
-.new:hover { 
+.add:hover { 
   background: #01BF93; 
 }
 
-.new:hover:active { 
+.add:hover:active { 
   background: #009A76;
 }
 
